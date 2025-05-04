@@ -62,7 +62,7 @@ function Header() {
           </li>
           <li className="pb-1 md:pb-0">
     <a
-      href="https://your-resume-link.com"
+      href="https://drive.google.com/file/d/1KS3Qt_RItoYhORrW9U94hf6i9In1-MKs/view"
       target="_blank"
       rel="noopener noreferrer"
       onClick={toggleClass}
