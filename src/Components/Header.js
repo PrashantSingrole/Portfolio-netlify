@@ -60,6 +60,18 @@ function Header() {
               Contact
             </NavLink>
           </li>
+          <li className="pb-1 md:pb-0">
+    <a
+      href="https://your-resume-link.com"
+      target="_blank"
+      rel="noopener noreferrer"
+      onClick={toggleClass}
+      className="hover:underline"
+    >
+      Resume
+    </a>
+  </li>
+
         </ul>
         <ul className="flex justify-evenly items-center my-5 md:my-0 md:space-x-5 md:mr-5">
           <li>

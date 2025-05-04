@@ -1,4 +1,4 @@
-import React from "react";
+/*import React from "react";
 
 function Project({ title, image, description, techstack, previewLink, githubLink }) {
   return (
@@ -58,6 +58,63 @@ function Project({ title, image, description, techstack, previewLink, githubLink
               />
             </svg>
 
+            <a
+              href={githubLink}
+              target="_blank"
+              rel="noreferrer noopener"
+              className="underline pl-2 font-light dark:text-white"
+            >
+              View Code
+            </a>
+          </div>
+        </div>
+      </div>
+    </article>
+  );
+}
+
+export default Project;*/
+import React from "react";
+
+function Project({ title, image, description, techstack, previewLink, githubLink, additionalPreviewLink }) {
+  console.log("additionalPreviewLink:", additionalPreviewLink); // Debug log to see the link
+
+  return (
+    <article className="rounded-xl mt-10 overflow-hidden shadow-xl shadow-slate-300 dark:shadow-slate-900">
+      <img src={image} alt="" loading="lazy" />
+      <div className="dark:bg-dark-card p-4">
+        <h1 className="dark:text-light-heading font-semibold text-lg pt-1">{title}</h1>
+        <p className="text-content pt-4 font-light">{description}</p>
+        <h3 className="text-dark-heading dark:text-light-heading font-medium pt-4">
+          Tech Stack : <span className="font-light">{techstack}</span>
+        </h3>
+        <div className="flex justify-between items-center mt-5">
+          <div className="flex items-center">
+            {/* First Live Preview Button */}
+            {previewLink && (
+              <a
+                href={previewLink}
+                target="_blank"
+                rel="noreferrer noopener"
+                className="underline pl-2 font-light dark:text-white"
+              >
+                Live Preview Admin
+              </a>
+            )}
+            {/* Second Live Preview Button */}
+            {additionalPreviewLink && (
+              <a
+                href={additionalPreviewLink}
+                target="_blank"
+                rel="noreferrer noopener"
+                className="underline pl-2 font-light dark:text-white"
+              >
+                Live Preview Users
+              </a>
+            )}
+          </div>
+          <div className="flex items-center">
+            {/* View Code Button */}
             <a
               href={githubLink}
               target="_blank"
