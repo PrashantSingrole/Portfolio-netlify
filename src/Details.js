@@ -135,7 +135,7 @@ export const projectDetails = [
     description: `I have built a personal portfolio website using React, HTML, and CSS. The site showcases my projects, skills, and contact information with a clean and responsive design.`,
     techstack: "HTML/CSS,React",
     previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    githubLink: "https://github.com/PrashantSingrole?tab=repositories",
   },
   {
     title: "Car Rental",
@@ -143,7 +143,7 @@ export const projectDetails = [
     description: `Created a desktop-based car rental system using C language in VS Code. It allows users to rent and return cars, check availability, and manage records using file handling.`,
     techstack: "C,Code Block",
     previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    githubLink: "https://github.com/PrashantSingrole?tab=repositories",
   },
 ];
 
