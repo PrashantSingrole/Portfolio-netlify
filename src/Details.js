@@ -134,7 +134,7 @@ export const projectDetails = [
     image: projectImage2,
     description: `I have built a personal portfolio website using React, HTML, and CSS. The site showcases my projects, skills, and contact information with a clean and responsive design.`,
     techstack: "HTML/CSS,React",
-    previewLink: "https://google.com",
+    previewLink: "https://thunderous-cuchufli-ffb43c.netlify.app/projects",
     githubLink: "https://github.com/PrashantSingrole?tab=repositories",
   },
   {
